@@ -1,0 +1,49 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+.container .header {
+  text-align: center;
+}
+.container .form {
+  margin: 2%;
+  text-align: center;
+}
+.container .form .form__name {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.container .form .form__name input {
+  width: 92.3%;
+}
+.container .form .date-amount {
+  text-align: left;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.container .form .date-amount input {
+  width: 80%;
+}
+.container .form .date-amount .form__date, .container .form .date-amount .form__amount {
+  width: 100%;
+}
+.container .expense-table {
+  width: 98%;
+  margin: 0 auto;
+}
+.container .expense-table tr {
+  outline: 1px solid gray;
+  text-align: center;
+}
+.container .expense-table td {
+  outline: 1px solid gray;
+}
+.container .bottom {
+  width: 98%;
+  margin: 0 auto;
+}
